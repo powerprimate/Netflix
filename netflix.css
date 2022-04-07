@@ -1,0 +1,387 @@
+body{
+margin:0;
+background-color: rgb(41, 41, 41);
+font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.page1{
+    height: 3000px;
+    width: 100%;
+    background-image: radial-gradient(rgba(12, 0, 0, 0.385),rgba(11, 9, 9, 0.862)),url(netflixbackground.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+header{
+    height: 400px;
+    width: auto;
+    display: flex;
+}
+.logo{
+    width: 700px;
+    height: 350px;
+    padding-left: 200px;
+}
+.space{
+    width: 65%;
+}  
+.language{
+    margin-top: 125px;
+    width: 372px;
+    height: 170px;
+    text-align: left;
+    font-size: 60px;
+    color: #fff;
+    border-radius: 5%;
+    background-color: rgba(0, 0, 0, 0.627);
+    border-color: #fff;
+    font-family: 'FontAwesome',"Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.signin{
+    margin-top: 140px;
+    margin-left: 120px;
+    width: 315px;
+    height: 140px;
+    align-items: center;
+    font-size: 64px;
+    border-radius: 5%;
+    background-color: #e50914;
+    border-color: #e50914;
+
+}
+.signin:hover{
+    cursor: pointer;
+}
+.textbox{
+    display: flex;
+    flex-direction: column;
+    margin: 5%;
+    margin-left: 25%;
+    height: 60%;
+    width: 50%;
+}
+.heading1{
+    font-size: 250px;
+    height: 19%;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.heading2{
+    font-size: 105px;
+    height: 3%;
+    color: #fff;
+    text-align: center;
+    font-weight: 300;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.heading3{
+    font-size: 80px;
+    height: 6%;
+    color: #fff;
+    text-align: center;
+    font-weight: 200;
+    font-family: 'Netflix Sans','Helvetica Neue',Helvetica,Arial,sans-serif;
+}
+.searchbar{
+    width: 66%;
+    height: 260px;
+    font-size: 60px;
+    padding-left: 40px;
+    float: left;
+    border: none;
+}
+.submitbutton{
+    height: 260px;
+    width: 31%;
+    float: left;
+    border: none;
+    font-size: 115px;
+    color: #fff;
+    background-color: #e50914;
+}
+.submitbutton:hover{
+    cursor: pointer;
+}
+.page2{
+    height: 1800px;
+    width: 100%;
+    background-color: #000;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.pg2sec1{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin-left: 16%;
+    margin-block-end: auto;
+    margin-block-start: auto;
+
+}
+.pgtxt1{
+    text-align: left;
+    font-size: 185px;
+    font-weight: bold;
+    color: #fff;
+}
+#txt21{
+    height: 80px;
+}
+.pgtxt2{
+    text-align: left;
+    font-size: 95px;
+    font-weight: 500;
+    color: #fff;
+}
+#txt22{
+    height: 240px;
+}
+.pg2sec2{
+    width: auto;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.tvimg{
+    background-image: url(vid\ 1.gif);
+    background-position-x: 273px;
+    background-position-y: 339px;
+    background-size: 73% 54%;
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    margin-left: 120px;
+    width: 90%;
+    height: 90%;
+}
+.page3{
+    height: 1800px;
+    width: 100%;
+    background-color: #000;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.pg3sec1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#phnimg{
+    margin-top: 100px;
+    margin-left: 500px;
+    height: 80%;
+    width: 70%;
+}
+#box{
+    position: absolute;
+    width: 21%;
+    height: 12%;
+    background-color: rgb(0 0 0);
+    border: solid;
+    border-width: 12px;
+    border-color: rgba(41,41,41);
+    border-radius: 33px;
+    margin-top: 18%;
+    margin-left: 15%;
+}
+#boximg{
+    width: 200px;
+    height: 245px;
+    margin-top: 25px;
+    margin-left: 40px;
+    float: left;
+}
+#boxname{
+    position: relative;
+    font-size: 60px;
+    font-weight: 700;
+    color: #fff;
+    float: left;
+    margin-top: 8%;
+    margin-left: 6%;
+}
+#boxdownloading{
+    position: absolute;
+    font-size: 51px;
+    font-weight: 700;
+    color: #0071eb;
+    margin-top: 181px;
+    margin-left: 315px;
+}
+#downloadinggif{
+    height: 200px;
+    width: 180px;
+    margin-top: 70px;
+    margin-left: 260px;
+}
+.pg3sec2{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    margin-left: 3%;
+}
+#txt31{
+    margin-top: 21%;
+    height: 25%;
+}
+#txt32{
+    height: 35%;
+}
+.page4{
+    height: 1800px;
+    width: 100%;
+    background-color: #000;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.pg4sec1{
+    display: flex;
+    flex-direction: column;
+    width: 32%;
+    margin-left: 16%;
+    margin-block-end: auto;
+    margin-block-start: auto;
+
+}
+#txt41{
+    height: 80px;
+}
+#txt42{
+    height: 240px;
+}
+.pg4sec2{
+    width: auto;
+    margin-top: 10px;
+    margin-left: 5%;
+}
+.devicepileimg{
+    background-image: url(ezgif.com-gif-maker.gif);
+    background-position-x: 401px;
+    background-position-y: 149px;
+    background-size: 61% 50%;
+    background-repeat: no-repeat;
+    margin-top: 130px;
+    margin-left: 120px;
+    width: 90%;
+    height: 90%;
+}
+.page5{
+    height: 1800px;
+    width: 100%;
+    background-color: #000;
+    margin-top: 35px;
+    margin-bottom: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.pg5sec1{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+#childimg{
+    margin-top: 100px;
+    margin-left: 500px;
+    height: 80%;
+    width: 70%;
+}
+.pg5sec2{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    margin-left: 3%;
+}
+#txt51{
+    margin-top: 21%;
+    height: 25%;
+}
+#txt52{
+    height: 35%;
+}
+.page6{
+    height: 3900px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    background-color: #000;
+}
+#pg6hd{
+    margin-bottom: -5%;
+    font-size: 190px;
+}
+.clickdown{
+    margin-left: 25%;
+    padding-left: 100px;
+    padding-top: 100px;
+    font-size: 105px;
+    margin-top: -1%;
+    height: 200px;
+    width: 3000px;
+    background-color: rgba(41,41,41);
+    color: #fff;
+    text-align: left;
+    font-weight: 300;
+    font-family: "Netflix Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.plus-symbol{
+    position: absolute;
+    height: 115px;
+    width: 115px;
+    margin-top: -8cm;
+    margin-left: 116cm;
+}
+.plus-symbol:hover{
+    transform: rotate(45deg);
+}
+#searchbar2{
+    width: 2000px;
+    margin-left: 1620px;
+}
+#submitbutton2{
+    width: 850px;
+}
+.page7{
+    height: 1800px;
+    width: 100%;
+    background-color: #000;
+    margin-top: 35px;
+    display: flex;
+    flex-direction: row;
+}
+.footertxt{
+    color: #757575;
+    font-size: 50px;
+}
+#phtxtpos{
+    margin-left: 21%;
+    margin-top: 5%;
+    position: absolute;
+}
+#phtxt{
+    font-weight: 600;
+    float: left;
+}
+#ph{
+    position: relative;
+    float: left;
+}
+#ph:hover{
+    text-decoration: underline;   
+}
+.footertable{
+    margin-top: 30%;
+    margin-left: 78%;
+    width: 200%;
+    height: 60%;
+    line-height: 250%;
+    
+}
+td:hover{
+    text-decoration: underline;
+}
